@@ -1,8 +1,8 @@
 const manName = 'rahim';
-// name = 'karim'//tis is not possible 
+// name = 'karim'//this is not possible 
 console.log(manName);
 
-const arr = [12, 15, 30]
+const arr = [12, 15, 30];
 
 arr[1] = 10;
 arr.push(25);
