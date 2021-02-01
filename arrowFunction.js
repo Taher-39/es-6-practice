@@ -26,4 +26,16 @@ console.log('More parameter add result:',add(5));
 // without parameter
 const give39 = () => 39;
 const result39 = give39();
-console.log('Without parameter result:',result39)
+console.log('Without parameter result:',result39);
+
+// more with arrow function 
+const doMath = (x, y) =>{
+    const sum = x + y;
+    const diff = x - y; 
+    const multiply = sum * diff;
+
+    return multiply;
+}
+
+const resultMore = doMath(5, 3);
+console.log('More With Arrow result:', resultMore);
