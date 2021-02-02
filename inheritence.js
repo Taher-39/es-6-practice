@@ -17,3 +17,4 @@ const name1 = new Child('Rabbi');
 const name2 = new Child('Rashel');
 console.log(name1.getFulName());
 console.log(name2);
+
